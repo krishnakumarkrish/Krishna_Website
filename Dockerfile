@@ -11,7 +11,7 @@ RUN apt install unzip
 WORKDIR /var/www/html/
 
 # download webfiles
-RUN wget 
+RUN wget https://github.com/krishnakumarkrish/Krishna_Website/archive/refs/heads/main.zip
 
 # unzip folder
 RUN unzip main.zip
