@@ -49,7 +49,7 @@ pipeline {
         stage('Run New Container') {
             steps {
                 // Runs the new container on port 8090 mapped to port 80 inside the container
-                sh 'docker run -d --name portfolio_container -p 8090:80 portfolio:latest'
+                sh 'docker run -d --name portfolio_container -p 8091:80 portfolio:latest'
             }
         }
     }
