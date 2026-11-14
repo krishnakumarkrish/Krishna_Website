@@ -11,7 +11,7 @@ RUN apt install unzip
 WORKDIR /var/www/html/
 
 # download webfiles
-RUN wget https://github.com/krishnakumarkrish/Project_Learn/archive/refs/heads/main.zip
+RUN wget 
 
 # unzip folder
 RUN unzip main.zip
