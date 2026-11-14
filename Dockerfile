@@ -17,7 +17,7 @@ RUN wget https://github.com/krishnakumarkrish/Krishna_Website/archive/refs/heads
 RUN unzip main.zip
 
 # copy files into html directory
-RUN cp -r  Project_Learn-main/* /var/www/html/
+RUN cp -r  Krishna_Website-main/* /var/www/html/
 
 # remove unwanted folder
 RUN rm -rf main.zip
